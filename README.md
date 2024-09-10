@@ -16,10 +16,9 @@
 
 </p>
 
-La aplicación desarrollada es un Sistema de Registro e Ingreso de socios a un gimacio que además almacena documentación y estado de los equipos.
+La aplicación desarrollada es un Sistema de Gestión para el Registro e Ingreso de socios en un gimnasio, con funcionalidades adicionales para almacenar la documentación relacionada y monitorear el estado de los equipos.
 
-El objetivo del sistema es facilitar tanto el resgistro como el ingreso y el acceso a la información. Automatizando la verificación del estado de los equipos para su debida manutención.
-
+El principal objetivo del sistema es optimizar el proceso de registro y acceso de los socios, facilitando la gestión de la información de manera eficiente. Además, automatiza el control del estado de los equipos, permitiendo una verificación constante para garantizar su adecuado mantenimiento.
 
 # Diagramas y diseños. 
 
