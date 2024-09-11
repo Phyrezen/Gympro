@@ -24,7 +24,7 @@ El principal objetivo del sistema es optimizar el proceso de registro y acceso d
 
 - [Tarjetas CRC.](https://github.com/Phyrezen/Gympro/blob/main/diagrams/crc.drawio.png) 
 - [Diagramas de casos de uso.](https://github.com/Phyrezen/Gympro/blob/main/diagrams/casosDeUso.drawio.png) 
-- [Escenarios de casos de uso.](https://maps.google.com/)
+- [Escenarios de casos de uso.](https://github.com/Phyrezen/Gympro/blob/main/diagrams/escenariosCasoUso.drawio.png)
 
 </p>
 
