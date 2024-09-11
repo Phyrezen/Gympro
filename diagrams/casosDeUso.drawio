@@ -1,0 +1,468 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Página-1" id="MDa6ee4qVsymz267FZ2b">
+    <mxGraphModel dx="2217" dy="2411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-39" value="&lt;div&gt;Ingresa al sistema con sus credenciales.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Brinda documentación para poder completar formulario de ingreso.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Asiste al socio cargando la información en el formulario.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Almacena la información recopilada en la base de datos&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Se genera un carnet provicional para el usuario&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="60" width="170" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-38" value="Receptionista" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="90" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-40" value="Socio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-42" value="Registro de socio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-44" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-45" value="Impresora" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.991;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-38" target="6-eAL0bkRqa7UGuuNLiT-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.019;entryY=0.273;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-40" target="6-eAL0bkRqa7UGuuNLiT-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.001;entryY=0.455;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-38" target="6-eAL0bkRqa7UGuuNLiT-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.011;entryY=0.609;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-44" target="6-eAL0bkRqa7UGuuNLiT-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.006;entryY=0.797;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-45" target="6-eAL0bkRqa7UGuuNLiT-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-55" value="&lt;div&gt;Intenta acceder al gimnasio o a la plataforma web para reservar una clase.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Verifica si la membresía está vigente o vencida, revisando la base de datos.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Si está al día, permite continuar el acceso. Si está vencida, muestra un mensaje de advertencia para que renueve su membresía.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;En caso de existir vacante el socio podrá reservar un lugar que quedará relacionado en la base por su ID.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="400" width="170" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-57" value="Socio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-58" value="Inscripción a clases" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="370" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-59" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="500" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-57" target="6-eAL0bkRqa7UGuuNLiT-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.011;entryY=0.609;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-59" target="6-eAL0bkRqa7UGuuNLiT-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.001;entryY=0.328;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-59" target="6-eAL0bkRqa7UGuuNLiT-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.815;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-57" target="6-eAL0bkRqa7UGuuNLiT-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-68" value="&lt;div&gt;No asiste a la clase a la que se había inscrito sin cancelar previamente.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Detecta la no asistencia y registra la falta en el sistema.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Aplica una penalización al socio, como la imposibilidad de inscribirse a futuras clases por un periodo de tiempo, liberando el cupo para otros socios.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="60" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-69" value="Socio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-70" value="Penalización por inasistencia" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-71" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-69" target="6-eAL0bkRqa7UGuuNLiT-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-71" target="6-eAL0bkRqa7UGuuNLiT-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.011;entryY=0.396;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-71" target="6-eAL0bkRqa7UGuuNLiT-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-76" value="&lt;div&gt;El socio presenta su tarjeta magnética en el lector del molinete al intentar ingresar al gimnasio.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Verifica en la base de datos si la membresía del socio está vigente.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Si la membresía está vigente, el sistema autoriza al molinete para que permita el acceso al socio. Si no lo está, se niega la entrada.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="330" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-77" value="Socio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="420" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-78" value="Acceso al gimnasio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="300" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-79" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="350" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-77" target="6-eAL0bkRqa7UGuuNLiT-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.991;entryY=0.462;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-79" target="6-eAL0bkRqa7UGuuNLiT-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.002;entryY=0.801;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-83" target="6-eAL0bkRqa7UGuuNLiT-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-83" value="Molinete" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="450" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-85" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Escanea un código QR pegado en una máquina del gimnasio con su teléfono.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El QR lo dirige a una página web que contiene el manual de uso de la máquina escaneada, explicando su funcionamiento con imágenes y/o videos.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Consulta las instrucciones y comienza a usar la máquina correctamente.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="600" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-86" value="Socio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="670" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-87" value="Documentación sobre uso de máquinas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="570" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-88" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="620" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-86" target="6-eAL0bkRqa7UGuuNLiT-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.991;entryY=0.462;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-88" target="6-eAL0bkRqa7UGuuNLiT-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.842;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-86" target="6-eAL0bkRqa7UGuuNLiT-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-107" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Detecta el uso de la máquina cuando está en funcionamiento.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Registra el tiempo que la máquina ha sido utilizada en cada sesión de uso.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Almacena esta información y genera reportes del uso acumulado para determinar el desgaste y posibles necesidades de mantenimiento.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="60" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-109" value="Monitoreo por uso de máquinas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-110" value="Sensor de mov." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-114" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-115" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Inicia sesión en su cuenta a través de la página web y actualiza su información personal (cambio de dirección, número de teléfono, etc.).&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Puede actualizar los datos en caso de que el socio lo haga en persona en recepción.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Almacena las actualizaciones en la base de datos y confirma el cambio&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="330" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-116" value="Actualización de perfil de socio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="300" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-118" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="490" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-119" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Recoge datos de los sensores de movimiento sobre el tiempo de uso acumulado de cada máquina.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Genera un reporte detallado del estado de las máquinas y envía alertas si alguna máquina supera el umbral de uso que indica la necesidad de mantenimiento.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Consulta el reporte generado por el sistema y realiza el mantenimiento correspondiente.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="600" width="170" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-120" value="Reporte de estado de máquinas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="570" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-122" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="680" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-128" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Inicia sesión en la plataforma web y selecciona la opción para renovar su membresía.&lt;/span&gt;&lt;br&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/strong&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Verifica los datos de pago y actualiza la vigencia de la membresía en la base de datos.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Envía una confirmación de renovación exitosa al socio.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="750" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-129" value="Renovación de membresía" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="720" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-131" target="6-eAL0bkRqa7UGuuNLiT-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-131" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="840" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-132" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Verifica la fecha de vencimiento de la membresía del socio.&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Envío automático de notificaciones (email, SMS) al socio cuando su membresía esté a punto de vencer.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Recibe la notificación con las instrucciones para renovar la membresía.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="870" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-133" value="Notificación de vencimiento de membresía" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="840" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-135" target="6-eAL0bkRqa7UGuuNLiT-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-135" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="950" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-136" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Accede al listado de entrenadores personales disponibles y selecciona un horario para una sesión.&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Verifica la disponibilidad del entrenador y agenda la cita.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Recibe la notificación de la reserva.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="870" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-137" value=" Reserva de entrenador personal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="840" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-139" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="950" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-140" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Accede a la sección de pagos para abonar la membresía o clases adicionales.&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Conecta con sistema externo para procesar la transacción.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Confirma si el pago fue exitoso o fallido.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Actualiza el estado de la membresía o registro en clases&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="60" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-141" value="Pago online" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-143" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="110" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-144" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Solicita pausar temporalmente su membresía por motivos personales o de salud.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Revisa si hay un limitante que evite la pausa (formar parte de un plan). Si hubiese un limitante lo informa, caso contrario frena el débito automático&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="330" width="170" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-145" value="Solicitud de frenar deb. Automático" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="300" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-147" target="6-eAL0bkRqa7UGuuNLiT-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-147" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="375" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-148" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Consulta su historial de clases a través de la plataforma, revisando las sesiones asistidas y las futuras.&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Muestra un resumen del historial de inscripciones y asistencias, basado en los datos de la base de datos.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="600" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-149" value="Acceso a calendario de clases" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="570" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-151" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="680" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-152" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Marca la asistencia de los socios a una clase en particular.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Registra la asistencia en la base de datos, y actualiza los historiales de los socios.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;En caso de inasistencia, podría aplicar penalizaciones si las políticas así lo indican.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="870" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-153" value="Reporte de asistencia a clases" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="840" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-155" target="6-eAL0bkRqa7UGuuNLiT-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-155" target="6-eAL0bkRqa7UGuuNLiT-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-155" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="950" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-156" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Envía notificaciones a los socios sobre la disponibilidad de nuevas clases, promociones o cambios en los horarios.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Recibe la notificación y tiene la opción de registrarse en las nuevas clases desde la plataforma.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="70" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-157" value="Notificación de nuevas clases" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="40" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-159" target="6-eAL0bkRqa7UGuuNLiT-156">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1820" y="170" />
+              <mxPoint x="1820" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-159" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="150" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-160" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Contacta al soporte técnico a través de un chat o formulario en la página web para reportar problemas técnicos con el sistema.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Registra la solicitud y la asigna al equipo de soporte.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Revisa y da respuesta a la solicitud del socio, resolviendo el problema técnico.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="340" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-161" value="Soporte técnico" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="310" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-229" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.99;entryY=0.553;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-163" target="6-eAL0bkRqa7UGuuNLiT-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-163" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="385" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-164" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Ingresa sus métricas de entrenamiento (peso, porcentaje de grasa, etc.) o conecta dispositivos que miden su progreso físico.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Almacena los datos y genera gráficos o reportes que permiten al socio visualizar su progreso físico a lo largo del tiempo.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="610" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-165" value="Visualización de progreso físico" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="580" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-167" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="700" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-168" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Consulta las alertas de máquinas que necesitan mantenimiento.&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Muestra una lista de equipos que superaron el tiempo de uso programado.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Programa una fecha de mantenimiento y el sistema actualiza el estado de la máquina.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="880" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-169" value="Agendar mantenimiento de máquinas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="850" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-237" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-171" target="6-eAL0bkRqa7UGuuNLiT-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-171" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="970" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-172" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Revisa el inventario de máquinas y el historial de mantenimientos.&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Proporciona un listado detallado del estado y tiempo de uso de cada máquina, alertando sobre posibles necesidades de compra o sustitución.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Realiza solicitudes de nuevas máquinas si es necesario.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2201" y="65" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-173" value="Gestión&amp;nbsp;inventario de máquinas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2201" y="35" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="6-eAL0bkRqa7UGuuNLiT-172">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2401" y="175" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-175" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2401" y="145" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.991;entryY=0.129;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-110" target="6-eAL0bkRqa7UGuuNLiT-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.019;entryY=0.385;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-114" target="6-eAL0bkRqa7UGuuNLiT-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.011;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-114" target="6-eAL0bkRqa7UGuuNLiT-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-182" value="Receptionista" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-183" value="Socio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="935" y="390" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.016;entryY=0.128;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-183" target="6-eAL0bkRqa7UGuuNLiT-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.012;entryY=0.602;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-182" target="6-eAL0bkRqa7UGuuNLiT-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.016;entryY=0.817;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-118" target="6-eAL0bkRqa7UGuuNLiT-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-187" value="Técnico" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="935" y="660" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.001;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-122" target="6-eAL0bkRqa7UGuuNLiT-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.987;entryY=0.439;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-122" target="6-eAL0bkRqa7UGuuNLiT-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.02;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-187" target="6-eAL0bkRqa7UGuuNLiT-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-191" value="Socio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="820" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.225;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-191" target="6-eAL0bkRqa7UGuuNLiT-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.981;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-131" target="6-eAL0bkRqa7UGuuNLiT-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-195" value="Socio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="930" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.184;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-135" target="6-eAL0bkRqa7UGuuNLiT-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.791;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-195" target="6-eAL0bkRqa7UGuuNLiT-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-199" value="Socio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="890" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-200" value="Personal Trainer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="990" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.291;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-199" target="6-eAL0bkRqa7UGuuNLiT-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.009;entryY=0.599;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-139" target="6-eAL0bkRqa7UGuuNLiT-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.014;entryY=0.777;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-200" target="6-eAL0bkRqa7UGuuNLiT-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-204" value="Socio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-205" value="Sistema Externo (Ej: Mercadopago)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-204" target="6-eAL0bkRqa7UGuuNLiT-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.019;entryY=0.394;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-143" target="6-eAL0bkRqa7UGuuNLiT-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.992;entryY=0.605;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-205" target="6-eAL0bkRqa7UGuuNLiT-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.818;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-143" target="6-eAL0bkRqa7UGuuNLiT-140">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="130" />
+              <mxPoint x="1600" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-210" target="6-eAL0bkRqa7UGuuNLiT-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-210" value="Socio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="355" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-213" value="Socio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="670" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.299;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-213" target="6-eAL0bkRqa7UGuuNLiT-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.708;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-151" target="6-eAL0bkRqa7UGuuNLiT-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-217" target="6-eAL0bkRqa7UGuuNLiT-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-217" value="Instructor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="930" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-221" value="Socio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.99;entryY=0.698;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-221" target="6-eAL0bkRqa7UGuuNLiT-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-224" value="Socio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="400" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-225" target="6-eAL0bkRqa7UGuuNLiT-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-225" value="Soporte Tec." style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="460" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.018;entryY=0.221;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-224" target="6-eAL0bkRqa7UGuuNLiT-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-231" value="Socio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="690" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.288;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-231" target="6-eAL0bkRqa7UGuuNLiT-164">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1820" y="720" />
+              <mxPoint x="1820" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.682;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-167" target="6-eAL0bkRqa7UGuuNLiT-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-234" value="Técnico" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="950" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.022;entryY=0.193;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-234" target="6-eAL0bkRqa7UGuuNLiT-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-234" target="6-eAL0bkRqa7UGuuNLiT-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-238" value="Administrador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2121" y="145" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-238" target="6-eAL0bkRqa7UGuuNLiT-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.841;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6-eAL0bkRqa7UGuuNLiT-238" target="6-eAL0bkRqa7UGuuNLiT-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
