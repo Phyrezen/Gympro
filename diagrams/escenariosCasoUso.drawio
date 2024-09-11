@@ -1,0 +1,154 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Página-1" id="MDa6ee4qVsymz267FZ2b">
+    <mxGraphModel dx="2620" dy="1055" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-35" value="Escenario de caso de uso" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="20" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-36" value="&lt;b&gt;Fallo en el sistema de control de acceso y penalización por inasistencia&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="20" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-38" value="Actores" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="80" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-39" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Socio,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Recepcionista,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Sistema&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="80" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-40" value="Precondiciones" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="100" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-41" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El socio debe tener una membresía vigente.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El sistema debe estar correctamente conectado a la base de datos.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Se ha registrado previamente la inasistencia del socio a clases sin cancelar.&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="100" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-42" value="Flujo de eventos principal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="210" width="150" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-43" value="&lt;span style=&quot;background-color: initial;&quot;&gt;El socio intenta acceder al gimnasio utilizando la tarjeta magnética.&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El sistema verifica el estado de la membresía del socio.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;La base de datos reporta correctamente si la membresía está al día o no.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El sistema aplica la penalización automática en caso de faltas reiteradas sin cancelación de clases.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El molinete permite o deniega el acceso en función de la vigencia de la membresía y la penalizaciones acumuladas no limitan el acceso pero si deja un registro en la DDBB para futuras inscripciones.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="210" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-52" value="Flujo alternativo (Error)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="430" width="150" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-53" value="&lt;span style=&quot;background-color: initial;&quot;&gt;El sistema pierde la conexión con la base de datos y no puede verificar el estado de la membresía.&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El sistema no detecta la falta de cancelaciones en las clases.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El socio no recibe la penalización y puede seguir registrándose en clases.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El recepcionista interviene para verificar manualmente el estado de la membresía.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El acceso del socio es autorizado sin penalizaciones.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="430" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-54" value="Postcondiciones" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="610" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-55" value="El socio debería haber sido penalizado por inasistencia a futuras clases, pero el error en la base de datos impide su correcta aplicación." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="610" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-56" value="Punto Crítico" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="660" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-57" value="El fallo en la conexión con la base de datos y la falta de aplicación automática de penalizaciones compromete la seguridad del acceso y la correcta gestión de las membresías." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="660" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-94" value="Escenario de caso de uso" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="20" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-95" value="&lt;b&gt; Exceso de cupo por errores en el registro de disponibilidad&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="20" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-96" value="Actores" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="60" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-97" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Socio, Instructor&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Sistema&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="60" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-98" value="Precondiciones" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="80" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-99" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El socio debe tener acceso a la plataforma web.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;La clase debe tener cupos disponibles.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El sistema debe actualizar correctamente el estado de disponibilidad de cupos.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="80" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-100" value="Flujo de eventos principal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="190" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-101" value="&lt;span style=&quot;background-color: initial;&quot;&gt;El socio ingresa al sistema para inscribirse en una clase.&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El sistema verifica la disponibilidad de cupos y permite la inscripción si hay espacio.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El sistema reduce el número de cupos disponibles y actualiza la base de datos.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="190" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-102" value="Flujo alternativo (Error)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="300" width="150" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-103" value="&lt;span style=&quot;background-color: initial;&quot;&gt;El sistema no actualiza correctamente el número de cupos disponibles.&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Se permite la inscripción de más socios de los cupos permitidos.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El instructor llega a la clase y se encuentra con sobrecupo, lo que genera caos entre los asistentes.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El sistema no aplica las penalizaciones por no asistencia, dejando cupos ocupados por socios que no asisten.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="300" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-104" value="Postcondiciones" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="480" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-105" value="El sobrecupo provoca desorganización y una experiencia negativa para los usuarios, y algunos socios no pueden registrarse aunque haya espacios liberados por faltas." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="480" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-106" value="Punto Crítico" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="540" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-107" value="Un error en la actualización de la disponibilidad de cupos afecta la capacidad del sistema para gestionar correctamente las inscripciones, generando insatisfacción entre los socios e ineficiencia en el uso de los recursos." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="540" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-122" value="Escenario de caso de uso" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="20" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-123" value="&lt;b style=&quot;background-color: initial;&quot;&gt;Falla en el monitoreo y mantenimiento de máquinas por datos incorrectos&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-124" value="Actores" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="90" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-125" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Técnico,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Sistema,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Sensor de movimiento&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-126" value="Precondiciones" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="110" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-127" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Las máquinas deben tener sensores de movimiento funcionales.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El sistema debe registrar correctamente los tiempos de uso de cada máquina.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Los reportes de mantenimiento deben generarse automáticamente según los datos registrados.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="110" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-128" value="Flujo de eventos principal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="230" width="150" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-129" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Los sensores de movimiento registran el tiempo de uso de las máquinas&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El sistema calcula el tiempo acumulado y genera alertas de mantenimiento cuando el tiempo límite es alcanzado.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El técnico recibe un reporte detallado de las máquinas que necesitan mantenimiento.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El técnico agenda una visita para revisar las máquinas con alertas.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-130" value="Flujo alternativo (Error)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="430" width="150" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-131" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Los sensores de movimiento reportan incorrectamente el tiempo de uso de las máquinas.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El sistema genera alertas falsas para máquinas que no necesitan mantenimiento.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;El técnico realiza mantenimiento innecesario en máquinas en buen estado, mientras que otras con problemas reales no son revisadas.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Las máquinas con fallas reales permanecen sin atención, lo que puede llevar a averías graves o accidentes.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="430" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-132" value="Postcondiciones" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="610" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-133" value="El socio debería haber sido penalizado por inasistencia, pero el error en la base de datos impide su correcta aplicación." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="610" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-134" value="Punto Crítico" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="650" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-135" value="El fallo en la conexión con la base de datos y la falta de aplicación automática de penalizaciones compromete la seguridad del acceso y la correcta gestión de las membresías." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="650" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-136" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Acceso al gimnasio y penalización por no asistencia&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="60" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-138" value=" Inscripción a clases y gestión de cupos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="40" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-139" value="Caso de uso" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-140" value="Monitoreo del tiempo de uso de máquinas y agendar mantenimiento" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="60" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-141" value="Caso de uso" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="40" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-zvzukbL2mYfY_jgGDVD-142" value="Caso de uso" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="60" width="150" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
