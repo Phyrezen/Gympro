@@ -1,0 +1,100 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Página-1" id="MDa6ee4qVsymz267FZ2b">
+    <mxGraphModel dx="769" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-9" value="Responsabilidad:&lt;div&gt;&lt;br&gt;&lt;div&gt;Gestionar la información del socio (datos personales, membresía).&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-10" value="Colaborador:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;páginaWeb&lt;/div&gt;&lt;div&gt;baseDeDatos&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="120" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-6" value="Clase: usuario" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-11" value="Responsabilidad:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Proporcionar la interfaz para el ingreso manual de socios y registro a clases.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-12" value="Colaborador:&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;usuario&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;recepción&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;registroDeClases&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="320" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-13" value="Clase: páginaWeb" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-14" value="Responsabilidad:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Permitir o denegar el acceso al establecimiento en función de la membresía.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-15" value="Colaborador:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;controlDeAcceso&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="520" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-16" value="Clase: molinete" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-17" value="Responsabilidad:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Proporcionar acceso a manuales de uso para las máquinas.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="720" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-18" value="Colaborador:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;páginaWeb&lt;/div&gt;&lt;div&gt;máquina.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="720" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-19" value="Clase: códigoQR" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-20" value="Responsabilidad:&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Verificar el estado de la membresía del socio (al día, vencida).&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-21" value="Colaborador:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;usuario&lt;/div&gt;&lt;div&gt;controlDeAcceso&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="450" y="120" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-22" value="Clase: membresía" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-23" value="Responsabilidad:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Gestionar las inscripciones a las clases, controlar penalidades y disponibilidad.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-24" value="Colaborador:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;usuario&lt;/div&gt;&lt;div&gt;membresía&lt;/div&gt;&lt;div&gt;baseDeDatos&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="450" y="320" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-25" value="Clase: registroDeClases" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-26" value="Responsabilidad:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Gestionar el uso de las máquinas del gimnasio y mostrar el manual de uso mediante QR.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-27" value="Colaborador:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;códigoQR&amp;nbsp;&lt;/div&gt;&lt;div&gt;sensorDeMovimiento.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="450" y="520" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-28" value="Clase: máquina" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-29" value="Responsabilidad:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Monitorear el tiempo de uso de cada máquina.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="600" y="520" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-30" value="Colaborador:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Máquina&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="730" y="520" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-31" value="Clase: sensorDeMovimiento" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600" y="480" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-32" value="Responsabilidad:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Colaborar en el ingreso de nuevos socios o en la corrección de datos.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-33" value="Colaborador:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;usuario&lt;/div&gt;&lt;div&gt;páginaWeb&lt;/div&gt;&lt;div&gt;baseDeDatos&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="730" y="120" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-34" value="Clase: recepción" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-35" value="Responsabilidad:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Controlar la entrada de socios al gimnasio mediante una tarjeta magnetizada.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-36" value="Colaborador:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;usuario&lt;/div&gt;&lt;div&gt;membresía&lt;/div&gt;&lt;div&gt;molinete&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="730" y="320" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6-eAL0bkRqa7UGuuNLiT-37" value="Clase: controlDeAcceso" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="260" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
